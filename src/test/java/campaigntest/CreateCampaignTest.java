@@ -56,6 +56,7 @@ public class CreateCampaignTest extends BaseClass {
 				String msg = toastMsg.getText();
 				homePage.getCloseToastMsgBtn().click();
 				assertTrue(msg.contains("Successfully Added"));
+				System.out.println("Hi");
 }  
 	
 	@Test(groups = "regression")
